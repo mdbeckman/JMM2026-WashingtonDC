@@ -1,13 +1,13 @@
 ---
-title: "Progress toward NLP-assisted formative assessment feedback"
+title: "Evaluating NLP tools designed to assist instructors with formative assessment for large-enrollment STEM classes"
 author: |
   | Matthew Beckman
   | Penn State University
 date: | 
-  | August 8, 2024
+  | January 6, 2026
   | 
   | 
-  | Slides: mdbeckman.github.io/JSM2024/
+  | Slides: mdbeckman.github.io/JMM2026-WashingtonDC/
 
   
 output:
