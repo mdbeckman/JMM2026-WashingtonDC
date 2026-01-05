@@ -20,13 +20,17 @@ output:
 ## Resources
 
 - [Slides (PDF)](docs/202601-scalable-formative-assessment.pdf)
-- [ICOTS Paper (PDF)](docs/ICOTS-Paper.pdf): Lloyd, S. E., Beckman, M., Pearl, D., Passonneau, R., Li, Z., & Wang, Z. (2022). Foundations for AI-Assisted Formative Assessment Feedback for Short-Answer Tasks in Large-Enrollment Classes. In *Proceedings of the eleventh international conference on teaching statistics*. Rosario, Argentina.
-- [EMNLP Paper](docs/EMNLP-Paper.pdf): Li, Z., Lloyd, S., Beckman, M. D., & Passonneau, R. J. (2023). Answer-state Recurrent Relational Network (AsRRN) for Constructed Response Assessment and Feedback Grouping.  *Findings of the Association for Computational Linguistics: EMNLP 2023*. https://doi.org/10.18653/v1/2023.findings-emnlp.254
+- [ArXiv Preprint (link)](https://arxiv.org/abs/2410.18062): Beckman, Burke, Fiochetta, Fry, Lloyd, Patterson, Tang, (in review). Developing Consistency Among Undergraduate Graders Scoring Open-Ended Statistics Tasks. Preprint URL: https://arxiv.org/abs/2410.18062
+- [EMNLP Paper (PDF)](docs/EMNLP-Paper.pdf): Li, Z., Lloyd, S., Beckman, M. D., & Passonneau, R. J. (2023). Answer-state Recurrent Relational Network (AsRRN) for Constructed Response Assessment and Feedback Grouping.  *Findings of the Association for Computational Linguistics: EMNLP 2023*. https://doi.org/10.18653/v1/2023.findings-emnlp.254
+- [Pilot Study (PDF)](docs/ICOTS-Paper.pdf): Lloyd, S. E., Beckman, M., Pearl, D., Passonneau, R., Li, Z., & Wang, Z. (2022). Foundations for AI-Assisted Formative Assessment Feedback for Short-Answer Tasks in Large-Enrollment Classes. In *Proceedings of the eleventh international conference on teaching statistics*. Rosario, Argentina.
+- [ArXiv Preprint (link)](https://arxiv.org/pdf/2504.03877): Wei, Y., Pearl, D., Beckman, M., Passonneau, R. (2025). Concept-based Rubrics Improve LLM Formative Assessment and Data Synthesis. Preprint URL: <https://arxiv.org/pdf/2504.03877> 
 - [JMM Session Description (link)--NSF Special Session on Outcomes and Innovations from NSF Undergraduate Education Programs in the Mathematical Sciences](https://meetings.ams.org/math/jmm2026/meetingapp.cgi/Session/15213)
 
 ## Acknowledgments 
 
-- We're grateful to the US National Science Foundation for funding this research (NSF DUE-2236150: Project CLASSIFIES)
+- US National Science Foundation (NSF DUE-2236150: Project CLASSIFIES)
+- Penn State Center for Socially Responsible Artificial Intelligence
+- Strategic partnership between University of Auckland and Penn State University
 
 ## Contact
 

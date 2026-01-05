@@ -27,23 +27,24 @@ library(tidyverse)
 ```
 
 
+# Two question pop quiz 
 
+1. Is your lucky (or favorite) number odd or even?
+2. How would you describe the value of formative assessment?
 
+### Google Form 
 
+![(QR Code) https://forms.gle/hpW72fMYE1SsB19JA](QR-GForm.png){width=20%}
 
-# Overview
+# Responses?
 
-- "short-answer" tasks are good for students, but hard to scale  
-- Can NLP tools help instructors give students feedback?  
-    - Mark & group student responses first   
-    - Need some basis for comparison  
-    - What might scalable, personalized feedback look like anyway?  
+```{r, echo=FALSE,out.width="49%", out.height="49%", fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("OddForm.png","EvenForm.png"))
+```
 
->- Results
->    - Marking by our NLP algorithm agrees with humans ($\text{QWK} \approx 0.7+$)  
->    - As well as humans agree ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)  
->    - Human-Algorithm partnership may be even better ($\approx 0.85+$)  
->    - More work to be done with grouping & feedback  
+<!-- MDB: Show some actual responses to the survey from past? -->
+<!-- MDB: Update Google Form pointer to resource page -->
+
 
 
 # Motivation
@@ -367,24 +368,27 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 - **RQ2**: NLP algorithm produced agreement reasonably aligned to results achieved by pairs/groups of trained human raters
     - Human-in-the-Loop >> Instructor / Algorithm partnership
 
-
+- **What about feedback? A few avenues come to mind...** 
+    - Should AI just do it?
+    - Clustering (or Classifier) Tools?
+    - Topological Data Analysis?
+    - Something completely different? 
+    
 
 # Current Events & Next Steps
 
 - challenge system with diverse tasks, institutions, student populations;
     - partnering with ISU, MSU, PSU, UCSB, UF, UTEP, & UoA
-    - both "consensus" tasks & "local" tasks 
-    - approx 45,000 new student responses 
-    - targeting languistic diversity
-- accumulated data to be shared broader NLP community
-    - this will be among the largest *open* data sources of it's kind
+    - approx 45,000 student responses; 27 task prompts 
+    - *influence of linguistic diversity?*
+- accumulated data to be shared with broader NLP community
+    - this will be among the largest **open** data sources of it's kind
     - addresses barriers imposed by proprietary data sources on NLP research
 - algorithm development 
     - contrastive loss function
-    - accommodates more complex task structure
-    - impact of response length 
-    - studying influence of rubric features (Wei et al, in review)
-- Studying comparative judgments for guided reflection as feedback
+    - flexibility for task structure
+    - studying influence of rubric features 
+    - LLM performance benchmarking (Wei et al, in review)
 
 
 
@@ -405,7 +409,7 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 
 #. Beckman, M. (2015). Assessment Of Cognitive Transfer Outcomes For Students Of Introductory Statistics. <http://conservancy.umn.edu/handle/11299/175709>
 
-#. Beckman, M., Burke, S., Fiochetta, J., Fry, B., Lloyd, S. E., Patterson, L., & Tang, E. (2024). Developing Consistency Among Undergraduate Graders Scoring Open-Ended Statistics Tasks. Preprint URL: <https://arxiv.org/abs/2410.18062>
+#. Beckman, M., Burke, S., Fiochetta, J., Fry, B., Lloyd, S. E., Patterson, L., & Tang, E. (in review). Developing Consistency Among Undergraduate Graders Scoring Open-Ended Statistics Tasks. Preprint URL: <https://arxiv.org/abs/2410.18062>
 
 #. Black, P., & Wiliam, D. (2009). Developing the theory of formative assessment.  *Educational Assessment, Evaluation and Accountability, 21,* pp 5-31. <https://doi.org/10.1007/s11092-008-9068-5>
 
@@ -445,15 +449,13 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 
 #. Woodard, R., & McGowan, H. (2012). Redesigning a large introductory course to incorporate the GAISE guidelines. *Journal of Statistics Education, 20*(3).
 
+#. Wei, Y., Pearl, D., Beckman, M., Passonneau, R. (2025). Concept-based Rubrics Improve LLM Formative Assessment and Data Synthesis. Preprint URL: https://arxiv.org/pdf/2504.03877
 
 
 # Thank You
 
 
 \titlepage
-
-
-Resource Page: https://mdbeckmantemp.github.io/JMM-WashingtonDC/
 
 
 
