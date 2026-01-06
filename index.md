@@ -10,6 +10,9 @@ output:
     css: stylesheet.css
 ---
 
+
+![](docs/qr-code-JMM.png){ width=20% }
+
 ## Evaluating NLP tools designed to assist instructors with formative assessment for large-enrollment STEM classes
 
 *Abstract.* This talk seeks to articulate the benefit of free-response tasks and timely formative assessment feedback, a roadmap for developing human-in-the-loop natural language processing (NLP) assisted feedback, and results from a pilot study establishing proof of principle. If we are to pursue Statistics and Data Science Education across disciplines, we will surely encounter both opportunity and necessity to develop scalable solutions for pedagogical best practices. Research suggests that “write-to-learn” tasks improve learning outcomes, yet constructed-response methods of formative assessment become unwieldy when class sizes grow large. Several short-answer tasks completed by post-secondary introductory statistics students; the responses were then evaluated by human raters and an NLP algorithm. After briefly describing the tasks, the student contexts, the algorithm and the raters, this talk discusses the results which indicate substantial inter-rater agreement and group consensus. The talk will conclude with recent developments, as well as implications for teaching and future research.
