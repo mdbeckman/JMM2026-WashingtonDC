@@ -208,7 +208,6 @@ Li, Z., Tomar, Y., & Passonneau, R. J. (2021). A Semantic Feature-Wise Transform
 
 - relation networks designed to learn generalizations that infer meaning in a data-efficient way
 - much of the architecture inspired by work from computer vision
-- more efficient than transformer networks (e.g., LLMs)
 
 
 
@@ -431,23 +430,6 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 # Supporting Slides
 
 
-# SFRN Detail (Li et al., 2021)
-
-\small
-
-SFRN is an end-to-end model with 3 components:
-
-1. encode QRA triples producing vector representations for question (Q), a possible reference (R), and student answer (A)
-2. when relation network includes multiple QRA triples, a learned feature-wise transformation network merges all relation vectors for a student answer into a single relation vector by leveraging attentions calculated by a QRA triple;
-3. the resulting vector representation is passed as an input to a classifier (i.e., neural network)
-
-![The $g_{\theta}MLP$ function (Left) uses an encoder to compute the relation vector for each [Q,R,A] triple. A
-set of relation vectors is combined (+) using a fusion function (*SFT*). The $f_{\phi}MLP$ function is the classifier step.](SFRN.png){width=70%}
-
-
-
-
-
 # Results: Instructors as Graders
 
 **RQ1**: What level of agreement is achieved among trained human raters labeling (i.e., scoring) short-answer tasks?
@@ -578,45 +560,6 @@ How similar is feedback provided by two instructors for some group of students?
 <!-- |:-----|:-----------:|:------:|:---------:|:---------:| -->
 <!-- | 1    |  90         | 0.71   |   0.53    |   0.69    | -->
 <!-- | 2    |  100        | 0.45   |   0.70    |   0.41    | -->
-
-
-
-
-
-
-# NLP for Educational Use 
-
-- Natural language processing (NLP) involves how computers can be programmed to analyze language elements
-- NLP-assisted feedback for educational use:
-    - automated short-answer grading (ASAG) from 2009
-    - essays & long-answer tasks earlier
-- Human-machine collaboration is a promising mechanism to assist rapid, individualized feedback at scale (Basu, 2013)
-- Deep neural networks application since 2016
-- Relational (neural) networks
-
-
-<!-- - from Becky: -->
-<!-- - previously developed for computer vision -->
-<!-- - more efficient than transformer networks (e.g., LLMs) -->
-
-
-# Credit: Becky Passonneau
-
-![](RelationalNetwork_RJP.png)
-
-
-# SFRN Detail (Li et al., 2021)
-
-\small
-
-SFRN is an end-to-end model with 3 components:
-
-1. encode QRA triples producing vector representations for question (Q), a possible reference (R), and student answer (A)
-2. when relation network includes multiple QRA triples, a learned feature-wise transformation network merges all relation vectors for a student answer into a single relation vector by leveraging attentions calculated by a QRA triple;
-3. the resulting vector representation is passed as an input to a classifier (i.e., neural network) 
-
-![The $g_{\theta}MLP$ function computes the relation vector for each [Q,R,A] triple. A
-set of relation vectors is combined (+) using *SFT*. The $f_{\phi}MLP$ function is the assessment classifier.](SFRN.png){width=70%}
 
 
 
