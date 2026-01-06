@@ -36,7 +36,8 @@ library(tidyverse)
 
 ![(QR Code) https://forms.gle/hpW72fMYE1SsB19JA](QR-GForm.png){width=20%}
 
-# Responses?
+
+# Same prompt, different task!
 
 ```{r, echo=FALSE,out.width="49%", out.height="49%", fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("OddForm.png","EvenForm.png"))
@@ -76,40 +77,7 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ![image created with assistance of DALL·E 2 by Open AI](DALLE Robot Assist.png){width=40%}
 
 
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-1-tech.png} 
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-6-assist.png} 
-
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-2-largeClass.png} 
-
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-3-formative.png} 
-
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-4-targetedFB.png} 
-
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-5-burden.png} 
-
-
-
-
-
-# Project Schematic
+# Schematic
 
 ![](Schematic.png){width=90%}
 
@@ -144,6 +112,8 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 - Li, Z., Lloyd, S., Beckman, M. D., & Passonneau, R. J. (2023). Answer-state Recurrent Relational Network (AsRRN) for Constructed Response Assessment and Feedback Grouping.  *Findings of the Association for Computational Linguistics: EMNLP 2023*.
 
+\vskip 6pt
+
 - Beckman, M., Burke, S., Fiochetta, J., Fry, B., Lloyd, S. E., Patterson, L., & Tang, E. (in review). Developing Consistency Among Undergraduate Graders Scoring Open-Ended Statistics Tasks. Preprint URL: <https://arxiv.org/abs/2410.18062>
 
 \vskip 6pt
@@ -153,7 +123,7 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 ![Lloyd et al., (2022); Li et al., (2023) Project Team](Collaborators.png){width=75%}
 
-![Beckman et al., (2024) Project Team](SU24_Team.png){width=80%}
+![Beckman et al., (in review) Project Team](SU24_Team.png){width=80%}
 
 
 
@@ -174,7 +144,7 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
     - (6 tasks) x (1,935 students) distributed among the team
     - sufficient intersection to assess inter-rater agreement
     - responses judged Correct / Partial / Incorrect against rubric
-- Beckman at al., (2024)
+- Beckman at al., (in review)
     - 4 Undergraduate Teaching Assistants (UTAs) and 1 instructor
     - (4 tasks) x (63 students) scored by each UTA + Instructor
     - 5 sequential exercises associated with progression of scoring development
@@ -184,7 +154,7 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 # Results
 
 - "short-answer" tasks are good for students, but hard to scale
-- Can NLP tools help instructors give students feedback?
+- Can NLP tools help instructors with scale?
     - Evaluate & group student responses
     - Compare agreement between NLP & humans
 
@@ -268,7 +238,7 @@ Semantic Feature-Wise Transformation Relation Network (SFRN):
 # Results
 
 - "short-answer" tasks are good for students, but hard to scale
-- Can NLP tools help instructors give students feedback?
+- Can NLP tools help instructors with scale?
     - Evaluate & group student responses
     - Compare agreement between NLP & humans
 
@@ -285,7 +255,7 @@ Semantic Feature-Wise Transformation Relation Network (SFRN):
 <!-- - Human-Algorithm partnership may be even better? ($\approx 0.85+$) -->
 
 
-# Human-Machine Combination?
+# {.plain}
 
 ![Image credit: https://www.slugmag.com/arts/film/film-reviews/terminator-genisys-time-is-not-on-my-side/](terminator.png){ width=90% }
 
@@ -293,11 +263,11 @@ Semantic Feature-Wise Transformation Relation Network (SFRN):
 
 <!-- ![Image credit: https://arvrjourney.com/will-augmented-reality-glasses-replace-our-phones-3c5650acddec](glasses.png){ width=90% } -->
 
-# Human-Machine Partnership?
+# Human-Machine *Partnership*
 
 ![Image credit: Dall-E](DALLE Robot Assist.png){ width=80% }
 
-# Human-Machine Partnership?
+# Human-Machine *Partnership*
 
 Our approach to human-in-the-loop (HIL) did **not** make a recommendation (e.g., Left), it just shows examples to the human when it needs help (e.g., Right).
 
@@ -343,7 +313,7 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 # Results
 
 - "short-answer" tasks are good for students, but hard to scale
-- Can NLP tools help instructors give students feedback?
+- Can NLP tools help instructors with scale?
     - Evaluate & group student responses
     - Compare agreement between NLP & humans
 
@@ -389,7 +359,6 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
     - flexibility for task structure
     - studying influence of rubric features 
     - LLM performance benchmarking (Wei et al, in review)
-
 
 
 # Acknowledgments
