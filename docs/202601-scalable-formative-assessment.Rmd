@@ -271,7 +271,7 @@ Semantic Feature-Wise Transformation Relation Network (SFRN):
 Our approach to human-in-the-loop (HIL) did **not** make a recommendation (e.g., Left), it just shows examples to the human when it needs help (e.g., Right).
 
 
-```{r, echo=FALSE,out.width="49%", out.height="49%", fig.cap="Illustration adapted from Google Photos", fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,out.width="49%", out.height="59%", fig.cap="Illustration adapted from Google Photos", fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("GooglePhotos.png","GooglePhotoDeferral.png"))
 ```
 
@@ -339,6 +339,20 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 
 - **What about feedback? A few avenues come to mind...** 
     - Should AI just do it?
+    - Clustering (or Classifier) Tools?
+    - Topological Data Analysis?
+    - Something completely different? 
+    
+
+# Discussion
+
+- **RQ1**: Substantial agreement achieved among trained human raters provides context for further comparisons
+
+- **RQ2**: NLP algorithm produced agreement reasonably aligned to results achieved by pairs/groups of trained human raters
+    - Human-in-the-Loop >> Instructor / Algorithm partnership
+
+- **What about feedback? A few avenues come to mind...** 
+    - ~~Should AI just do it?~~
     - Clustering (or Classifier) Tools?
     - Topological Data Analysis?
     - Something completely different? 
